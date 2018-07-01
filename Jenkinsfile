@@ -1,6 +1,6 @@
 #!groovy
 
-node (packer-node) {
+node {
 
   def err = null
   currentBuild.result = "SUCCESS"
